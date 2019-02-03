@@ -5,9 +5,10 @@
     android:layout_height="match_parent"
     tools:context=".GridFragment">
 
-    <TextView
+    <GridView
+        android:id="@+id/gridViewOnFragmen"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Hello" />
+        android:numColumns="auto_fit" />
 
 </FrameLayout>
